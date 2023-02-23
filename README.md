@@ -1,2 +1,2 @@
 <h3>Objektinis programavimas</h3>
-<p>Eikite į subrepozitorijas pamatyti labaratorinių darbų skirtingas versijas</p>
+<p>Šioje repozitorijoje rasite <b>V0_1</b></p>
