@@ -1,0 +1,22 @@
+#pragma once
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include <algorithm>
+#include <time.h>
+#include <limits>
+
+using std::cout;
+using std::cin;
+using std::endl;
+using std::left;
+using std::right;
+using std::setw;
+using std::setprecision;
+using std::string;
+using std::copy;
+using std::sort;
+using std::fixed;
+using std::numeric_limits;
+using std::streamsize;
+using std::exception;
