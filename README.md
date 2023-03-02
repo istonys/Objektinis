@@ -34,7 +34,7 @@
     <p>Pasirinkus <b>"Y"</b> - pradedamas skaitymas bei išvestis.</p>
     <p>Pasirinkus <b>"N"</b> - leidžiama jums pradėti įvestį ranka. Įvesčių kiekis nėra ribojamas, naudotis šia funkcija naudokitės programos nurodymais.</p>
 <h2>Pagrindinės funkcijos </h2>
-    <p><b>Skaityti()</b> - nuskaito studentų duomenis iš failo "kursiokai.txt".</p>
+    <p><b>Skaityti()</b> - nuskaito studentų duomenis iš failo <i>"kursiokai.txt"</i>.</p>
     <p><b>Ivestis()</b> - leidžia vartotojui įvesti studentų duomenis ranka.</p>
     <p><b>Vidurkis()</b> - skaičiuoja studentų vidurkius.</p>
     <p><b>Mediana()</b> - skaičiuoja studentų medianas.</p>
