@@ -40,5 +40,5 @@
     <p>Spausdinti() - spausdina studentų duomenis ir jų vidurkius bei medianas.</p>
     <p>lygintiVardus() - pagalba funkcija, kuri lygina studentų vardus.</p>
 <h2>Programos naudojimo pavyzdys:</h2>
-<img src="https://user-images.githubusercontent.com/116721418/222552259-efc0cdad-27cc-4254-8c72-980c4e69798b.png" width="600" height="300">
+<img src="https://user-images.githubusercontent.com/116721418/222552259-efc0cdad-27cc-4254-8c72-980c4e69798b.png" width="700" height="400">
 
