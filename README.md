@@ -28,7 +28,8 @@
         Ivestis(grupe);
     }
   } </code>
-<h2>Naudojimas</h2>
+<h2>Programos naudojimas</h2>
 <p>Paleista programa jūsų paklausia ar norite skaityti studentus iš failo "kursiokai.txt", ar įvesti juos ranka. Pasirinkimą nurodykite raidėmis "Y" arba "N".</p>
-
+    <p>Pasirinkus "Y" - pradedamas skaitymas bei išvestis.</p>
+    <p>Pasirinkus "N" - leidžiama jums pradėti įvestį ranka. Įvesčių kiekis nėra ribojamas, naudotis šia funkcija naudokitės programos nurodymais.</p>
 
