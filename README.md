@@ -1,5 +1,6 @@
 <h3>Objektinis programavimas V0_2</h3>
 <p><b><i>V0_2 versijos ypatumas: skaitymas iš failo.</i></b></p>
+<h2>Kodo pavyzdys:</h2>
 <code>void Skaityti(vector<Studentas>& grupe, vector<string>& pirmaEilute) {
     ifstream fd("kursiokai.txt");
     if (!fd.fail()) {
