@@ -41,5 +41,5 @@
     <p>lygintiVardus() - pagalba funkcija, kuri lygina studentų vardus.</p>
 <h2>Programos naudojimo pavyzdys:</h2>
 ![Screenshot 2023-03-02 230310](https://user-images.githubusercontent.com/116721418/222552259-efc0cdad-27cc-4254-8c72-980c4e69798b.png =500x300)
-<img src="[https://your-image-url.type](https://user-images.githubusercontent.com/116721418/222552259-efc0cdad-27cc-4254-8c72-980c4e69798b.png)" width="100" height="100">
+<img src="https://your-image-url.type](https://user-images.githubusercontent.com/116721418/222552259-efc0cdad-27cc-4254-8c72-980c4e69798b.png" width="100" height="100">
 
