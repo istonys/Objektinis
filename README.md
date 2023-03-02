@@ -30,16 +30,16 @@
     }
   } </code>
 <h2>Programos naudojimas</h2>
-<p>Paleista programa jūsų paklausia ar norite skaityti studentus iš failo "kursiokai.txt", ar įvesti juos ranka. Pasirinkimą nurodykite raidėmis "Y" arba "N".</p>
-    <p>Pasirinkus "Y" - pradedamas skaitymas bei išvestis.</p>
-    <p>Pasirinkus "N" - leidžiama jums pradėti įvestį ranka. Įvesčių kiekis nėra ribojamas, naudotis šia funkcija naudokitės programos nurodymais.</p>
+    <p>Paleista programa jūsų paklausia ar norite skaityti studentus iš failo <i>"kursiokai.txt"</i>, ar įvesti juos ranka. Pasirinkimą nurodykite raidėmis <b>"Y"</b> arba <b>"N"</b>.</p>
+    <p>Pasirinkus <b>"Y"</b> - pradedamas skaitymas bei išvestis.</p>
+    <p>Pasirinkus <b>"N"</b> - leidžiama jums pradėti įvestį ranka. Įvesčių kiekis nėra ribojamas, naudotis šia funkcija naudokitės programos nurodymais.</p>
 <h2>Pagrindinės funkcijos </h2>
-    <p>Skaityti() - nuskaito studentų duomenis iš failo "kursiokai.txt".</p>
-    <p>Ivestis() - leidžia vartotojui įvesti studentų duomenis ranka.</p>
-    <p>Vidurkis() - skaičiuoja studentų vidurkius.</p>
-    <p>Mediana() - skaičiuoja studentų medianas.</p>
-    <p>Spausdinti() - spausdina studentų duomenis ir jų vidurkius bei medianas.</p>
-    <p>lygintiVardus() - pagalba funkcija, kuri lygina studentų vardus.</p>
+    <p><b>Skaityti()</b> - nuskaito studentų duomenis iš failo "kursiokai.txt".</p>
+    <p><b>Ivestis()</b> - leidžia vartotojui įvesti studentų duomenis ranka.</p>
+    <p><b>Vidurkis()</b> - skaičiuoja studentų vidurkius.</p>
+    <p><b>Mediana()</b> - skaičiuoja studentų medianas.</p>
+    <p><b>Spausdinti()</b> - spausdina studentų duomenis ir jų vidurkius bei medianas.</p>
+    <p><b>lygintiVardus()</b> - pagalba funkcija, kuri lygina studentų vardus.</p>
 <h2>Programos naudojimo pavyzdys:</h2>
 <img src="https://user-images.githubusercontent.com/116721418/222552259-efc0cdad-27cc-4254-8c72-980c4e69798b.png" width="700" height="400">
 
