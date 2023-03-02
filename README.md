@@ -1,8 +1,7 @@
 <h3>Objektinis programavimas V0_3</h3>
 <p><b><i>V0_3 versijos ypatumas: V0_2 versijos reorganizavimas bei išimčių valdymas.</i></b></p>
 <h2>Kodo pavyzdys:</h2>
-<code>
-if (testi == "y") {
+<code>if (testi == "y") {
     while (true) {
         try {
             cout << "Iveskite studento pazymiu kieki: ";
