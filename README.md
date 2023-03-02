@@ -39,7 +39,7 @@
     <p><b>Vidurkis()</b> - skaičiuoja studentų vidurkius.</p>
     <p><b>Mediana()</b> - skaičiuoja studentų medianas.</p>
     <p><b>Spausdinti()</b> - spausdina studentų duomenis ir jų vidurkius bei medianas.</p>
-    <p><b>lygintiVardus()</b> - pagalba funkcija, kuri lygina studentų vardus.</p>
+    <p><b>lygintiVardus()</b> - pagalbinė funkcija, kuri lygina studentų vardus.</p>
 <h2>Programos naudojimo pavyzdys:</h2>
 <img src="https://user-images.githubusercontent.com/116721418/222552259-efc0cdad-27cc-4254-8c72-980c4e69798b.png" width="700" height="400">
 
