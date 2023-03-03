@@ -5,7 +5,12 @@ bool lygintiVardus(const Studentas& a, const Studentas& b) {
     return b.vardas > a.vardas;
 }
 void Skaityti(vector<Studentas>& grupe, vector<string>& pirmaEilute) {
-    ifstream fd("kursiokai.txt");
+    string failas;
+    cout << "Galimi tekstinio failo pavadinimai:" << endl;
+    system("dir /b | findstr \\.txt$");
+    cout << "Iveskite failo pavadinima, kuri norite nuskaityti: ";
+    cin >> failas;
+    ifstream fd(failas);
     if (!fd.fail()) {
         string eilute;
         getline(fd, eilute);
