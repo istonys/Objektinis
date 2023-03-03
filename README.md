@@ -2,7 +2,12 @@
 <p><b><i>V0_2 versijos ypatumas: skaitymas iš failo.</i></b></p>
 <h2>Kodo pavyzdys:</h2>
 <code>void Skaityti(vector<Studentas>& grupe, vector<string>& pirmaEilute) {
-    ifstream fd("kursiokai.txt");
+    string failas;
+    cout << "Galimi tekstinio failo pavadinimai:" << endl;
+    system("dir /b | findstr \\.txt$");
+    cout << "Iveskite failo pavadinima, kuri norite nuskaityti: ";
+    cin >> failas;
+    ifstream fd(failas);
     if (!fd.fail()) {
         string eilute;
         getline(fd, eilute);
@@ -28,7 +33,7 @@
         fd.close();
         Ivestis(grupe);
     }
-  } </code>
+} </code>
 <h2>Programos naudojimas</h2>
     <p>Paleista programa jūsų paklausia ar norite skaityti studentus iš failo <i>"kursiokai.txt"</i>, ar įvesti juos ranka. Pasirinkimą nurodykite raidėmis <b>"Y"</b> arba <b>"N"</b>.</p>
     <p>Pasirinkus <b>"Y"</b> - pradedamas skaitymas bei išvestis.</p>
