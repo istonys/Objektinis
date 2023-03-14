@@ -1,29 +1,33 @@
 <h3>Objektinis programavimas V0_4</h3>
 <p><b><i>V0_4 versijos ypatumas: failų rūšiavimas bei laiko matavimas.</i></b></p>
 <h2>Kodo pavyzdys:</h2>
-<code>void Rusiuoti(vector<Studentas>& grupe) {                                                                          
-    auto start = std::chrono::high_resolution_clock::now();                                                               
-    ofstream vargsiukai("vargsiukai.txt");                                                                               
-    vargsiukai << setw(15) << "Vardas" << setw(15) << "Pavarde" << setw(35) << "Galutinis vid. / Galutinis med." << endl;
-    vargsiukai << "--------------------------------------------------------------------------------" << endl;
-
-    ofstream galvociai("galvociai.txt");
-    galvociai << setw(15) << "Vardas" << setw(15) << "Pavarde" << setw(35) << "Galutinis vid. / Galutinis med." << endl;
-    galvociai << "--------------------------------------------------------------------------------" << endl;
-    for (int i = 0; i < grupe.size(); i++) {                                                                                 
-        if (grupe[i].vidurkis >= 5) {
-            galvociai << setw(15) << grupe[i].vardas << setw(15) << grupe[i].pavarde << setw(18) << fixed << setprecision(2) << grupe[i].vidurkis << setw(17) << grupe[i].mediana << endl;
+<code>auto startF1000 = std::chrono::high_resolution_clock::now();
+    ofstream failas1000("Studentai1000.txt");
+    failas1000 << setw(25) << "Vardas" << setw(25) << "Pavarde";
+    for (int i = 0; i < pazymiuskc; i++) {
+        failas1000 << setw(7) << "ND" << i + 1 << " ";
+    }
+    failas1000 << setw(7) << "EGZ." << endl;
+    for (int i = 0; i < 1000; i++) {
+        vardas = Vardai[rand() % 49];
+        if (vardas.back() == 's') {
+            pavarde = Vyriskos_pavardes[rand() % 24];
         }
         else {
-            vargsiukai << setw(15) << grupe[i].vardas << setw(15) << grupe[i].pavarde << setw(18) << fixed << setprecision(2) << grupe[i].vidurkis << setw(17) << grupe[i].mediana << endl;
+            pavarde = Moteriskos_pavardes[rand() % 24];
         }
+        failas1000 << setw(25) << vardas << setw(25) << pavarde;
+        for (int j = 0; j < pazymiuskc; j++) {
+            failas1000 << setw(8) << rand() % 10 + 1 << " ";
+        }
+        failas1000 << setw(7) << rand() % 10 + 1 << endl;
     }
-    vargsiukai.close();
-    galvociai.close();
-    auto stop = std::chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
-    cout << "Rusiavimas uztruko: " << duration.count() / 1000.0 << " s" << endl;
-}                                                                                                                                                           </code>
+    cout << "Studentai1000.txt failas sugeneruotas" << endl;
+    failas1000.close();
+    auto stopF1000 = std::chrono::high_resolution_clock::now();
+    auto durationF1000 = std::chrono::duration_cast<std::chrono::milliseconds>(stopF1000 - startF1000);
+    cout << "Sugeneruoti faila Studentai1000.txt uztruko: " << durationF1000.count() / 1000.0 << " s" << endl;
+    cout << "-------------------------------------------------------" << endl;</code>
 <h2>Programos naudojimas</h2>
     <p>Programos pradžioje suteikta galimybė sugeneruoti studentų failus.</p>
     <p>Toliau programa jūsų paklausia ar norite skaityti studentus iš failo, ar įvesti juos ranka. Pasirinkimą nurodykite raidėmis <b>"T"</b> arba <b>"N"</b>.</p>
