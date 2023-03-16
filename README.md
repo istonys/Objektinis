@@ -47,31 +47,31 @@
     </tr>
     <tr>        
         <td>Studentai10000.txt</td>
-        <td>0.005 s</td>
-        <td>0 s</td>
-        <td>0 s</td>
-        <td>0 s</td>
+        <td>0.029 s</td>
+        <td>0.001 s</td>
+        <td>0.001 s</td>
+        <td>0.001 s</td>
     </tr>
     <tr>
         <td>Studentai100000.txt</td>
-        <td>0.005 s</td>
-        <td>0 s</td>
-        <td>0 s</td>
-        <td>0 s</td>
+        <td>0.246 s</td>
+        <td>0.011 s</td>
+        <td>0.021 s</td>
+        <td>0.021 s</td>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
-        <td>0.005 s</td>
-        <td>0 s</td>
-        <td>0 s</td>
-        <td>0 s</td>
+        <td>4.207 s</td>
+        <td>0.133 s</td>
+        <td>0.246 s</td>
+        <td>0.246 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
-        <td>0.005 s</td>
-        <td>0 s</td>
-        <td>0 s</td>
-        <td>0 s</td>
+        <td>26.139 s</td>
+        <td>1.367 s</td>
+        <td>2.533 s</td>
+        <td>2.533 s</td>
     </tr>
 </table>
 <h2>Programos naudojimas</h2>
