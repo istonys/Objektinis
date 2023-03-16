@@ -323,57 +323,67 @@ void Generuoti() {
     auto durationF1000000 = std::chrono::duration_cast<std::chrono::milliseconds>(stopF1000000 - startF1000000);
     cout << "Sugeneruoti faila Studentai1000000.txt uztruko: " << durationF1000000.count() / 1000.0 << " s" << endl;
     cout << "-------------------------------------------------------" << endl;
-    ////10000000
-    // auto startF10000000 = std::chrono::high_resolution_clock::now();
-    //ofstream failas10000000("Studentai10000000.txt");
-    //failas10000000 << setw(25) << "Vardas" << setw(25) << "Pavarde";
-    //for (int i = 0; i < pazymiuskc; i++) {
-    //    failas10000000 << setw(7) << "ND" << i + 1 << " ";
-    //}
-    //failas10000000 << setw(7) << "EGZ." << endl;
-    //for (int i = 0; i < 10000000; i++) {
-    //    vardas = Vardai[rand() % 49];
-    //    if (vardas.back() == 's') {
-    //        pavarde = Vyriskos_pavardes[rand() % 24];
-    //    }
-    //    else {
-    //        pavarde = Moteriskos_pavardes[rand() % 24];
-    //    }
-    //    failas10000000 << setw(25) << vardas << setw(25) << pavarde;
-    //    for (int j = 0; j < pazymiuskc; j++) {
-    //        failas10000000 << setw(8) << rand() % 10 + 1 << " ";
-    //    }
-    //    failas10000000 << setw(7) << rand() % 10 + 1 << endl;
-    //}
-    //cout << "Studentai10000000.txt failas sugeneruotas" << endl;
-    //failas10000000.close();
-    //auto stopF10000000 = std::chrono::high_resolution_clock::now();
-    //auto durationF10000000 = std::chrono::duration_cast<std::chrono::milliseconds>(stopF10000000 - startF10000000);
-    //cout << "Sugeneruoti faila Studentai10000000.txt uztruko: " << durationF10000000.count() / 1000.0 << " s" << endl;
-    //cout << "-------------------------------------------------------" << endl;
+    //10000000
+    auto startF10000000 = std::chrono::high_resolution_clock::now();
+    ofstream failas10000000("Studentai10000000.txt");
+    failas10000000 << setw(25) << "Vardas" << setw(25) << "Pavarde";
+    for (int i = 0; i < pazymiuskc; i++) {
+        failas10000000 << setw(7) << "ND" << i + 1 << " ";
+    }
+    failas10000000 << setw(7) << "EGZ." << endl;
+    for (int i = 0; i < 10000000; i++) {
+        vardas = Vardai[rand() % 49];
+        if (vardas.back() == 's') {
+            pavarde = Vyriskos_pavardes[rand() % 24];
+        }
+        else {
+            pavarde = Moteriskos_pavardes[rand() % 24];
+        }
+        failas10000000 << setw(25) << vardas << setw(25) << pavarde;
+        for (int j = 0; j < pazymiuskc; j++) {
+            failas10000000 << setw(8) << rand() % 10 + 1 << " ";
+        }
+        failas10000000 << setw(7) << rand() % 10 + 1 << endl;
+    }
+    cout << "Studentai10000000.txt failas sugeneruotas" << endl;
+    failas10000000.close();
+    auto stopF10000000 = std::chrono::high_resolution_clock::now();
+    auto durationF10000000 = std::chrono::duration_cast<std::chrono::milliseconds>(stopF10000000 - startF10000000);
+    cout << "Sugeneruoti faila Studentai10000000.txt uztruko: " << durationF10000000.count() / 1000.0 << " s" << endl;
+    cout << "-------------------------------------------------------" << endl;
 }
 void Rusiuoti(vector<Studentas>& grupe) {
+    vector<Studentas> V_galvociai;
+    vector<Studentas> V_vargsiukai;
     auto start = std::chrono::high_resolution_clock::now();
+    for (int i = 0; i < grupe.size(); i++) {
+        if (grupe[i].vidurkis >= 5) {
+            V_galvociai.push_back(grupe[i]);
+        }
+        else V_vargsiukai.push_back(grupe[i]);
+    }
+    auto stop = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
+    cout << "Suskirstymas i galvocius ir vargsiukus uztruko: " << duration.count() / 1000.0 << " s" << endl;
+
+    auto startRasyti = std::chrono::high_resolution_clock::now();
     ofstream vargsiukai("vargsiukai.txt");
     vargsiukai << setw(15) << "Vardas" << setw(15) << "Pavarde" << setw(35) << "Galutinis vid. / Galutinis med." << endl;
     vargsiukai << "--------------------------------------------------------------------------------" << endl;
-
+    for (int i = 0; i < V_vargsiukai.size(); i++) {
+        vargsiukai << setw(15) << V_vargsiukai[i].vardas << setw(15) << V_vargsiukai[i].pavarde << setw(18) << fixed << setprecision(2) << V_vargsiukai[i].vidurkis << setw(17) << V_vargsiukai[i].mediana << endl;
+    }
+    vargsiukai.close();
     ofstream galvociai("galvociai.txt");
     galvociai << setw(15) << "Vardas" << setw(15) << "Pavarde" << setw(35) << "Galutinis vid. / Galutinis med." << endl;
     galvociai << "--------------------------------------------------------------------------------" << endl;
-    for (int i = 0; i < grupe.size(); i++) {
-        if (grupe[i].vidurkis >= 5) {
-            galvociai << setw(15) << grupe[i].vardas << setw(15) << grupe[i].pavarde << setw(18) << fixed << setprecision(2) << grupe[i].vidurkis << setw(17) << grupe[i].mediana << endl;
-        }
-        else {
-            vargsiukai << setw(15) << grupe[i].vardas << setw(15) << grupe[i].pavarde << setw(18) << fixed << setprecision(2) << grupe[i].vidurkis << setw(17) << grupe[i].mediana << endl;
-        }
+    for (int i = 0; i < V_galvociai.size(); i++) {
+        galvociai << setw(15) << V_galvociai[i].vardas << setw(15) << V_galvociai[i].pavarde << setw(18) << fixed << setprecision(2) << V_galvociai[i].vidurkis << setw(17) << V_galvociai[i].mediana << endl;
     }
-    vargsiukai.close();
     galvociai.close();
-    auto stop = std::chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
-    cout << "Rusiavimas uztruko: " << duration.count() / 1000.0 << " s" << endl;
+    auto stopRasyti = std::chrono::high_resolution_clock::now();
+    auto durationRasyti = std::chrono::duration_cast<std::chrono::milliseconds>(stopRasyti - startRasyti);
+    cout << "Surasymas i skirtingus failus uztruko: " << duration.count() / 1000.0 << " s" << endl;
 }
 void arGeneruoti(string& skaityti) {
     cout << "Sveiki! Yra galimybe sugeneruoti 5 failus, kuriu dydziai yra:" << endl;
@@ -387,11 +397,7 @@ void arGeneruoti(string& skaityti) {
         }
     } while (skaityti != "t" && skaityti != "n");
     if (skaityti == "t") {
-        auto start = std::chrono::high_resolution_clock::now();
         Generuoti();
-        auto stop = std::chrono::high_resolution_clock::now();
-        auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
-        cout << "Visas generavimo procesas uztruko: " << duration.count() / 1000.0 << " s" << endl;
     }
 }
 void arSkaityti(string& skaityti) {
@@ -409,7 +415,11 @@ void SkaitymoCiklas(vector<Studentas>& grupe, vector<string>& pirmaEilute, strin
         bool ar = true;
         Skaityti(grupe, pirmaEilute, ar);
         if (ar) {
+            auto start = std::chrono::high_resolution_clock::now();
             sort(grupe.begin(), grupe.end(), lygintiVardus);
+            auto stop = std::chrono::high_resolution_clock::now();
+            auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
+            cout << "Sort() uztruko: " << duration.count() / 1000.0 << " s" << endl;
             Vidurkis(grupe);
             Mediana(grupe);
             Rusiuoti(grupe);
