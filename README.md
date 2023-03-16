@@ -28,6 +28,52 @@
     auto durationF1000 = std::chrono::duration_cast<std::chrono::milliseconds>(stopF1000 - startF1000);
     cout << "Sugeneruoti faila Studentai1000.txt uztruko: " << durationF1000.count() / 1000.0 << " s" << endl;
     cout << "-------------------------------------------------------" << endl;</code>
+<h2>Testavimo rezultatai</h2>
+<table>
+    <tr>
+        <th>Failo pav.</th>
+        <th>Generavimo trukmė</th>
+        <th>Nuskaitymas</th>
+        <th>Sort() trukmė</th>
+        <th>Suskirstymo trukmė</th>
+        <th>Surasymas i failus</th>
+    </tr>
+    <tr>
+        <td>Studentai1000.txt</td>
+        <td>0.005 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
+    </tr>
+    <tr>        
+        <td>Studentai10000.txt</td>
+        <td>0.005 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
+    </tr>
+    <tr>
+        <td>Studentai100000.txt</td>
+        <td>0.005 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
+    </tr>
+    <tr>
+        <td>Studentai1000000.txt</td>
+        <td>0.005 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
+    </tr>
+    <tr>
+        <td>Studentai10000000.txt</td>
+        <td>0.005 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
+    </tr>
+</table>
 <h2>Programos naudojimas</h2>
     <p>Programos pradžioje suteikta galimybė sugeneruoti studentų failus.</p>
     <p>Toliau programa jūsų paklausia ar norite skaityti studentus iš failo, ar įvesti juos ranka. Pasirinkimą nurodykite raidėmis <b>"T"</b> arba <b>"N"</b>.</p>
