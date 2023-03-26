@@ -1,34 +1,6 @@
 <h3>Objektinis programavimas V0_5</h3>
-<p><b><i>V0_5 versijos ypatumas: testavimas su <b style="color: red;">list</b> ir <b>deque</b> konteineriais.</i></b></p>
-<h2>Kodo pavyzdys:</h2>
-<code>auto startF1000 = std::chrono::high_resolution_clock::now();
-    ofstream failas1000("Studentai1000.txt");
-    failas1000 << setw(25) << "Vardas" << setw(25) << "Pavarde";
-    for (int i = 0; i < pazymiuskc; i++) {
-        failas1000 << setw(7) << "ND" << i + 1 << " ";
-    }
-    failas1000 << setw(7) << "EGZ." << endl;
-    for (int i = 0; i < 1000; i++) {
-        vardas = Vardai[rand() % 49];
-        if (vardas.back() == 's') {
-            pavarde = Vyriskos_pavardes[rand() % 24];
-        }
-        else {
-            pavarde = Moteriskos_pavardes[rand() % 24];
-        }
-        failas1000 << setw(25) << vardas << setw(25) << pavarde;
-        for (int j = 0; j < pazymiuskc; j++) {
-            failas1000 << setw(8) << rand() % 10 + 1 << " ";
-        }
-        failas1000 << setw(7) << rand() % 10 + 1 << endl;
-    }
-    cout << "Studentai1000.txt failas sugeneruotas" << endl;
-    failas1000.close();
-    auto stopF1000 = std::chrono::high_resolution_clock::now();
-    auto durationF1000 = std::chrono::duration_cast<std::chrono::milliseconds>(stopF1000 - startF1000);
-    cout << "Sugeneruoti faila Studentai1000.txt uztruko: " << durationF1000.count() / 1000.0 << " s" << endl;
-    cout << "-------------------------------------------------------" << endl;</code>
-<h2>Testavimo rezultatai</h2>
+<p><b><i>V0_5 versijos ypatumas: testavimas su list ir deque konteineriais.</i></b></p>
+<h2>Testavimo rezultatai su vector:</h2>
 <table>
     <tr>
         <th>Failo pav.</th>
