@@ -1,5 +1,5 @@
 <h3>Objektinis programavimas V0_5</h3>
-<p><b><i>V0_5 versijos ypatumas: testavimas su <b>list</b> ir <b>deque</b> konteineriais.</i></b></p>
+<p><b><i>V0_5 versijos ypatumas: testavimas su <b style="color: red;">list</b> ir <b>deque</b> konteineriais.</i></b></p>
 <h2>Kodo pavyzdys:</h2>
 <code>auto startF1000 = std::chrono::high_resolution_clock::now();
     ofstream failas1000("Studentai1000.txt");
