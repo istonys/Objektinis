@@ -1,6 +1,6 @@
 <h3>Objektinis programavimas V0_5</h3>
 <p><b><i>V0_5 versijos ypatumas: testavimas su list ir deque konteineriais.</i></b></p>
-<h2>Testavimo rezultatai su vector:</h2>
+<h3>Testavimo rezultatai su vector:</h3>
 <table>
     <tr>
         <th>Failo pav.</th>
@@ -51,7 +51,7 @@
         <td>2.533 s</td>
     </tr>
 </table>
-<h2>Testavimo rezultatai su list:</h2>
+<h3>Testavimo rezultatai su list:</h3>
 <table>
     <tr>
         <th>Failo pav.</th>
@@ -102,7 +102,7 @@
         <td>49.258 s</td>
     </tr>
 </table>
-<h2>Testavimo rezultatai su deque:</h2>
+<h3>Testavimo rezultatai su deque:</h3>
 <table>
     <tr>
         <th>Failo pav.</th>
