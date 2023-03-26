@@ -3,12 +3,6 @@
 <h2>Testavimo rezultatai su vector:</h2>
 <table>
     <tr>
-        <th><th>Vienas</th></th>
-    </tr>
-    <tr><td>Du</td><td>Trys</td></tr>
-</table>
-<table>
-    <tr>
         <th>Failo pav.</th>
         <th>Generavimo trukmė</th>
         <th>Nuskaitymas</th>
@@ -57,6 +51,109 @@
         <td>2.533 s</td>
     </tr>
 </table>
+<h2>Testavimo rezultatai su list:</h2>
+<table>
+    <tr>
+        <th>Failo pav.</th>
+        <th>Generavimo trukmė</th>
+        <th>Nuskaitymas</th>
+        <th>Sort() trukmė</th>
+        <th>Suskirstymo trukmė</th>
+        <th>Surasymas i failus</th>
+    </tr>
+    <tr>
+        <td>Studentai1000.txt</td>
+        <td>0.019 s</td>
+        <td>0.027 s</td>
+        <td>0 s</td>
+        <td>0.002 s</td>
+        <td>0.002 s</td>
+    </tr>
+    <tr>        
+        <td>Studentai10000.txt</td>
+        <td>0.105 s</td>
+        <td>0.19 s</td>
+        <td>0.008 s</td>
+        <td>0.038 s</td>
+        <td>0.038 s</td>
+    </tr>
+    <tr>
+        <td>Studentai100000.txt</td>
+        <td>1.141 s</td>
+        <td>1.883 s</td>
+        <td>0.137 s</td>
+        <td>0.275 s</td>
+        <td>0.275 s</td>
+    </tr>
+    <tr>
+        <td>Studentai1000000.txt</td>
+        <td>10.835 s</td>
+        <td>18.972 s</td>
+        <td>1.507 s</td>
+        <td>3.342 s</td>
+        <td>3.342 s</td>
+    </tr>
+    <tr>
+        <td>Studentai10000000.txt</td>
+        <td>118.128 s</td>
+        <td>250.356 s</td>
+        <td>30.397 s</td>
+        <td>49.258 s</td>
+        <td>49.258 s</td>
+    </tr>
+</table>
+<h2>Testavimo rezultatai su deque:</h2>
+<table>
+    <tr>
+        <th>Failo pav.</th>
+        <th>Generavimo trukmė</th>
+        <th>Nuskaitymas</th>
+        <th>Sort() trukmė</th>
+        <th>Suskirstymo trukmė</th>
+        <th>Surasymas i failus</th>
+    </tr>
+    <tr>
+        <td>Studentai1000.txt</td>
+        <td>0.013 s</td>
+        <td>0.02 s</td>
+        <td>0.005 s</td>
+        <td>0.001 s</td>
+        <td>0.001 s</td>
+    </tr>
+    <tr>        
+        <td>Studentai10000.txt</td>
+        <td>0.108 s</td>
+        <td>0.186 s</td>
+        <td>0.074 s</td>
+        <td>0.015 s</td>
+        <td>0.015 s</td>
+    </tr>
+    <tr>
+        <td>Studentai100000.txt</td>
+        <td>1.592 s</td>
+        <td>1.864 s</td>
+        <td>0.569 s</td>
+        <td>0.157 s</td>
+        <td>0.157 s</td>
+    </tr>
+    <tr>
+        <td>Studentai1000000.txt</td>
+        <td>13.882 s</td>
+        <td>19.264 s</td>
+        <td>6.94 s</td>
+        <td>2.755 s</td>
+        <td>2.755 s</td>
+    </tr>
+    <tr>
+        <td>Studentai10000000.txt</td>
+        <td>124.323 s</td>
+        <td>241.711 s</td>
+        <td>97.052 s</td>
+        <td>31.377 s</td>
+        <td>31.377 s</td>
+    </tr>
+</table>
+<h2>Trumpa išvada: vector ryškiai pranašesnis už list ir deque.</h2>
 <h2>Programos naudojimas</h2>
     <p>Programos pradžioje suteikta galimybė sugeneruoti studentų failus.</p>
     <p>Toliau programa jūsų paklausia ar norite skaityti studentus iš failo, ar įvesti juos ranka. Pasirinkimą nurodykite raidėmis <b>"T"</b> arba <b>"N"</b>.</p>
