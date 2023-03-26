@@ -3,7 +3,7 @@
 <h2>Testavimo rezultatai su vector:</h2>
 <table>
     <tr>
-        <th>Vienas</th>
+        <th><th>Vienas</th></th>
     </tr>
     <tr><td>Du</td><td>Trys</td></tr>
 </table>
