@@ -153,7 +153,6 @@
         <td>2.337 s</td>
     </tr>
 </table>
-<h2>Trumpa išvada: vector ryškiai pranašesnis už list ir deque.</h2>
 <h2>Programos naudojimas</h2>
     <p>Programos pradžioje suteikta galimybė sugeneruoti studentų failus.</p>
     <p>Toliau programa jūsų paklausia ar norite skaityti studentus iš failo, ar įvesti juos ranka. Pasirinkimą nurodykite raidėmis <b>"T"</b> arba <b>"N"</b>.</p>
