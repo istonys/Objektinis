@@ -3,6 +3,12 @@
 <h2>Testavimo rezultatai su vector:</h2>
 <table>
     <tr>
+        <th>Vienas</th>
+    </tr>
+    <tr><td>Du</td><td>Trys</td></tr>
+</table>
+<table>
+    <tr>
         <th>Failo pav.</th>
         <th>Generavimo trukmė</th>
         <th>Nuskaitymas</th>
