@@ -63,43 +63,43 @@
     </tr>
     <tr>
         <td>Studentai1000.txt</td>
-        <td>0.019 s</td>
-        <td>0.027 s</td>
+        <td>0.004 s</td>
+        <td>0.004 s</td>
         <td>0 s</td>
-        <td>0.002 s</td>
-        <td>0.002 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
     </tr>
     <tr>        
         <td>Studentai10000.txt</td>
-        <td>0.105 s</td>
-        <td>0.19 s</td>
-        <td>0.008 s</td>
-        <td>0.038 s</td>
-        <td>0.038 s</td>
+        <td>0.033 s</td>
+        <td>0.02 s</td>
+        <td>0.001 s</td>
+        <td>0.002 s</td>
+        <td>0.002 s</td>
     </tr>
     <tr>
         <td>Studentai100000.txt</td>
-        <td>1.141 s</td>
-        <td>1.883 s</td>
-        <td>0.137 s</td>
-        <td>0.275 s</td>
-        <td>0.275 s</td>
+        <td>0.292 s</td>
+        <td>0.194 s</td>
+        <td>0.024 s</td>
+        <td>0.05 s</td>
+        <td>0.05 s</td>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
-        <td>10.835 s</td>
-        <td>18.972 s</td>
-        <td>1.507 s</td>
-        <td>3.342 s</td>
-        <td>3.342 s</td>
+        <td>2.99 s</td>
+        <td>2.051 s</td>
+        <td>0.498 s</td>
+        <td>0.655 s</td>
+        <td>0.655 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
-        <td>118.128 s</td>
-        <td>250.356 s</td>
-        <td>30.397 s</td>
-        <td>49.258 s</td>
-        <td>49.258 s</td>
+        <td>29.957 s</td>
+        <td>20.05 s</td>
+        <td>8.608 s</td>
+        <td>6.389 s</td>
+        <td>6.389 s</td>
     </tr>
 </table>
 <h3>Testavimo rezultatai su deque:</h3>
@@ -114,43 +114,43 @@
     </tr>
     <tr>
         <td>Studentai1000.txt</td>
-        <td>0.013 s</td>
-        <td>0.02 s</td>
-        <td>0.005 s</td>
-        <td>0.001 s</td>
-        <td>0.001 s</td>
+        <td>0.004 s</td>
+        <td>0.002 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
+        <td>0 s</td>
     </tr>
     <tr>        
         <td>Studentai10000.txt</td>
-        <td>0.108 s</td>
-        <td>0.186 s</td>
-        <td>0.074 s</td>
-        <td>0.015 s</td>
-        <td>0.015 s</td>
+        <td>0.03 s</td>
+        <td>0.022 s</td>
+        <td>0.001 s</td>
+        <td>0.001 s</td>
+        <td>0.001 s</td>
     </tr>
     <tr>
         <td>Studentai100000.txt</td>
-        <td>1.592 s</td>
-        <td>1.864 s</td>
-        <td>0.569 s</td>
-        <td>0.157 s</td>
-        <td>0.157 s</td>
+        <td>0.287 s</td>
+        <td>0.193 s</td>
+        <td>0.019 s</td>
+        <td>0.016 s</td>
+        <td>0.016 s</td>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
-        <td>13.882 s</td>
-        <td>19.264 s</td>
-        <td>6.94 s</td>
-        <td>2.755 s</td>
-        <td>2.755 s</td>
+        <td>2.948 s</td>
+        <td>1.91 s</td>
+        <td>0.234 s</td>
+        <td>0.209 s</td>
+        <td>0.209 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
-        <td>124.323 s</td>
-        <td>241.711 s</td>
-        <td>97.052 s</td>
-        <td>31.377 s</td>
-        <td>31.377 s</td>
+        <td>29.308 s</td>
+        <td>20.523 s</td>
+        <td>2.911 s</td>
+        <td>2.337 s</td>
+        <td>2.337 s</td>
     </tr>
 </table>
 <h2>Trumpa išvada: vector ryškiai pranašesnis už list ir deque.</h2>
