@@ -4,50 +4,38 @@
 <table>
     <tr>
         <th>Failo pav.</th>
-        <th>Generavimo trukmė</th>
         <th>Nuskaitymas</th>
         <th>Sort() trukmė</th>
         <th>Suskirstymo trukmė</th>
-        <th>Surasymas i failus</th>
     </tr>
     <tr>
         <td>Studentai1000.txt</td>
-        <td>0.008 s</td>
         <td>0.005 s</td>
-        <td>0 s</td>
         <td>0 s</td>
         <td>0 s</td>
     </tr>
     <tr>        
         <td>Studentai10000.txt</td>
-        <td>0.057 s</td>
         <td>0.029 s</td>
-        <td>0.001 s</td>
         <td>0.001 s</td>
         <td>0.001 s</td>
     </tr>
     <tr>
         <td>Studentai100000.txt</td>
-        <td>0.965 s</td>
         <td>0.246 s</td>
         <td>0.011 s</td>
-        <td>0.021 s</td>
         <td>0.021 s</td>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
-        <td>3.768 s</td>
         <td>4.207 s</td>
         <td>0.133 s</td>
-        <td>0.246 s</td>
         <td>0.246 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
-        <td>35.741 s</td>
-        <td>26.139 s</td>
+        <td>26.139 s</td> 
         <td>1.367 s</td>
-        <td>2.533 s</td>
         <td>2.533 s</td>
     </tr>
 </table>
@@ -55,50 +43,38 @@
 <table>
     <tr>
         <th>Failo pav.</th>
-        <th>Generavimo trukmė</th>
         <th>Nuskaitymas</th>
         <th>Sort() trukmė</th>
         <th>Suskirstymo trukmė</th>
-        <th>Surasymas i failus</th>
     </tr>
     <tr>
         <td>Studentai1000.txt</td>
         <td>0.004 s</td>
-        <td>0.004 s</td>
-        <td>0 s</td>
         <td>0 s</td>
         <td>0 s</td>
     </tr>
     <tr>        
         <td>Studentai10000.txt</td>
-        <td>0.033 s</td>
         <td>0.02 s</td>
         <td>0.001 s</td>
-        <td>0.002 s</td>
         <td>0.002 s</td>
     </tr>
     <tr>
         <td>Studentai100000.txt</td>
-        <td>0.292 s</td>
         <td>0.194 s</td>
         <td>0.024 s</td>
-        <td>0.05 s</td>
         <td>0.05 s</td>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
-        <td>2.99 s</td>
         <td>2.051 s</td>
         <td>0.498 s</td>
-        <td>0.655 s</td>
         <td>0.655 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
-        <td>29.957 s</td>
         <td>20.05 s</td>
         <td>8.608 s</td>
-        <td>6.389 s</td>
         <td>6.389 s</td>
     </tr>
 </table>
@@ -106,50 +82,38 @@
 <table>
     <tr>
         <th>Failo pav.</th>
-        <th>Generavimo trukmė</th>
         <th>Nuskaitymas</th>
         <th>Sort() trukmė</th>
         <th>Suskirstymo trukmė</th>
-        <th>Surasymas i failus</th>
     </tr>
     <tr>
         <td>Studentai1000.txt</td>
-        <td>0.004 s</td>
         <td>0.002 s</td>
-        <td>0 s</td>
         <td>0 s</td>
         <td>0 s</td>
     </tr>
     <tr>        
         <td>Studentai10000.txt</td>
-        <td>0.03 s</td>
         <td>0.022 s</td>
-        <td>0.001 s</td>
         <td>0.001 s</td>
         <td>0.001 s</td>
     </tr>
     <tr>
         <td>Studentai100000.txt</td>
-        <td>0.287 s</td>
         <td>0.193 s</td>
         <td>0.019 s</td>
-        <td>0.016 s</td>
         <td>0.016 s</td>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
-        <td>2.948 s</td>
         <td>1.91 s</td>
         <td>0.234 s</td>
-        <td>0.209 s</td>
         <td>0.209 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
-        <td>29.308 s</td>
         <td>20.523 s</td>
         <td>2.911 s</td>
-        <td>2.337 s</td>
         <td>2.337 s</td>
     </tr>
 </table>
