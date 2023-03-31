@@ -10,33 +10,33 @@
     </tr>
     <tr>
         <td>Studentai1000.txt</td>
-        <td>0.005 s</td>
+        <td>0.003 s</td>
         <td>0 s</td>
         <td>0 s</td>
     </tr>
     <tr>        
         <td>Studentai10000.txt</td>
-        <td>0.029 s</td>
-        <td>0.001 s</td>
-        <td>0.001 s</td>
+        <td>0.032 s</td>
+        <td>0.002 s</td>
+        <td>0.004 s</td>
     </tr>
     <tr>
         <td>Studentai100000.txt</td>
-        <td>0.246 s</td>
-        <td>0.011 s</td>
-        <td>0.021 s</td>
+        <td>0.238 s</td>
+        <td>0.012 s</td>
+        <td>0.022 s</td>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
-        <td>4.207 s</td>
-        <td>0.133 s</td>
-        <td>0.246 s</td>
+        <td>2.226 s</td>
+        <td>0.136 s</td>
+        <td>0.268 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
-        <td>26.139 s</td> 
-        <td>1.367 s</td>
-        <td>2.533 s</td>
+        <td>21.107 s</td> 
+        <td>1.409 s</td>
+        <td>2.886 s</td>
     </tr>
 </table>
 <h3>Testavimo rezultatai su list:</h3>
@@ -49,33 +49,33 @@
     </tr>
     <tr>
         <td>Studentai1000.txt</td>
-        <td>0.004 s</td>
+        <td>0.002 s</td>
         <td>0 s</td>
         <td>0 s</td>
     </tr>
     <tr>        
         <td>Studentai10000.txt</td>
-        <td>0.02 s</td>
+        <td>0.031 s</td>
         <td>0.001 s</td>
-        <td>0.002 s</td>
+        <td>0.003 s</td>
     </tr>
     <tr>
         <td>Studentai100000.txt</td>
-        <td>0.194 s</td>
-        <td>0.024 s</td>
-        <td>0.05 s</td>
+        <td>0.238 s</td>
+        <td>0.03 s</td>
+        <td>0.064 s</td>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
-        <td>2.051 s</td>
-        <td>0.498 s</td>
-        <td>0.655 s</td>
+        <td>2.303 s</td>
+        <td>0.604 s</td>
+        <td>0.664 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
-        <td>20.05 s</td>
-        <td>8.608 s</td>
-        <td>6.389 s</td>
+        <td>20.237 s</td>
+        <td>7.463 s</td>
+        <td>5.561 s</td>
     </tr>
 </table>
 <h3>Testavimo rezultatai su deque:</h3>
@@ -94,27 +94,27 @@
     </tr>
     <tr>        
         <td>Studentai10000.txt</td>
-        <td>0.022 s</td>
+        <td>0.02 s</td>
         <td>0.001 s</td>
         <td>0.001 s</td>
     </tr>
     <tr>
         <td>Studentai100000.txt</td>
-        <td>0.193 s</td>
-        <td>0.019 s</td>
-        <td>0.016 s</td>
+        <td>0.192 s</td>
+        <td>0.017 s</td>
+        <td>0.017 s</td>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
-        <td>1.91 s</td>
+        <td>1.939 s</td>
         <td>0.234 s</td>
-        <td>0.209 s</td>
+        <td>0.205 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
-        <td>20.523 s</td>
-        <td>2.911 s</td>
-        <td>2.337 s</td>
+        <td>19.317 s</td>
+        <td>2.663 s</td>
+        <td>2.155 s</td>
     </tr>
 </table>
 <h2>Programos naudojimas</h2>
