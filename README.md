@@ -141,19 +141,19 @@
         <td>Studentai100000.txt</td>
         <td>0.238 s</td>
         <td>0.03 s</td>
-        <td>0.064 s</td>
+        <td>0.049 s</td>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
         <td>2.303 s</td>
         <td>0.604 s</td>
-        <td>0.664 s</td>
+        <td>0.621 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
         <td>20.237 s</td>
         <td>7.463 s</td>
-        <td>5.561 s</td>
+        <td>6.563 s</td>
     </tr>
 </table>
 <h3>Testavimo rezultatai su deque (strategija 1):</h3>
@@ -213,25 +213,25 @@
         <td>Studentai10000.txt</td>
         <td>0.02 s</td>
         <td>0.001 s</td>
-        <td>0.001 s</td>
+        <td>0.002 s</td>
     </tr>
     <tr>
         <td>Studentai100000.txt</td>
         <td>0.192 s</td>
         <td>0.017 s</td>
-        <td>0.017 s</td>
+        <td>0.015 s</td>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
         <td>1.939 s</td>
         <td>0.234 s</td>
-        <td>0.205 s</td>
+        <td>0.158 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
         <td>19.317 s</td>
         <td>2.663 s</td>
-        <td>2.155 s</td>
+        <td>1.761 s</td>
     </tr>
 </table>
 <h2>Programos naudojimas</h2>
