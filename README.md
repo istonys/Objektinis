@@ -1,5 +1,6 @@
 <h3>Objektinis programavimas V1_0</h3>
 <p><b><i>V1_0 versijos ypatumas: testavimas pritaikant skirtingas strategijas.</i></b></p>
+<h2>PASTABA! Naudojant skirtingas strategijas skiriasi tik suskirstymo trukmė.</h2>
 <h3>Testavimo rezultatai su vector (strategija 1):</h3>
 <table>
     <tr>
