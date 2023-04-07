@@ -57,25 +57,25 @@
         <td>Studentai10000.txt</td>
         <td>0.032 s</td>
         <td>0.002 s</td>
-        <td>0.004 s</td>
+        <td>0.001 s</td>
     </tr>
     <tr>
         <td>Studentai100000.txt</td>
         <td>0.238 s</td>
         <td>0.012 s</td>
-        <td>0.022 s</td>
+        <td>0.016 s</td>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
         <td>2.226 s</td>
         <td>0.136 s</td>
-        <td>0.268 s</td>
+        <td>0.146 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
         <td>21.107 s</td> 
         <td>1.409 s</td>
-        <td>2.886 s</td>
+        <td>1.603 s</td>
     </tr>
 </table>
 <h3>Testavimo rezultatai su list (strategija 1):</h3>
