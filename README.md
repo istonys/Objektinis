@@ -32,15 +32,15 @@
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
-        <td>2.226 s</td>
-        <td>0.136 s</td>
-        <td>0.146 s</td>
+        <td>2.157 s</td>
+        <td>0.632 s</td>
+        <td>0.139 s</td>
     </tr>
     <tr>
         <td>Studentai10000000.txt</td>
-        <td>21.107 s</td> 
-        <td>1.409 s</td>
-        <td>1.603 s</td>
+        <td>21.208 s</td> 
+        <td>6.739 s</td>
+        <td>1.552 s</td>
     </tr>
 </table>
 <h3>Testavimas naudojant skirtingus optimizavimo lygius:</h3>
