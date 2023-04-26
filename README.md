@@ -2,6 +2,11 @@
 <p><b><i>V1_0 versijos ypatumas: testavimas pritaikant skirtingas strategijas.</i></b></p>
 <h2>PASTABA! Naudojant skirtingas strategijas skiriasi tik suskirstymo trukmė.</h2>
 <h3>Testavimo rezultatai su vector (strategija 1):</h3>
+|   Vienas	| Du  	|  Trys 	|   	|   	|
+|---	|---	|---	|---	|---	|
+|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|
 <table>
     <tr>
         <th>Failo pav.</th>
