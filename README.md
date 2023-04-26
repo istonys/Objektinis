@@ -1,6 +1,6 @@
 <h3>Objektinis programavimas V1_1</h3>
 <p><b><i>V1_1 versijos ypatumas: programos perrašymas iš struct naudojimo į class; struct vs. class testavimas</i></b></p>
-<h2>PASTABA! Naudojant skirtingas strategijas skiriasi tik suskirstymo trukmė.</h2>
+<p>Testavimas atliktas pasinaudojus sparčiausia (2) strategija.</p>
 <h3>Testavimo rezultatai su vector (strategija 2):</h3>
 <table>
     <tr>
