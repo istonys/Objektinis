@@ -43,6 +43,7 @@
         <td>1.603 s</td>
     </tr>
 </table>
+<h3>Testavimas naudojant skirtingus optimizavimo lygius:</h3>
 <h2>Programos naudojimas</h2>
     <p>Programos pradžioje suteikta galimybė sugeneruoti studentų failus.</p>
     <p>Toliau programa jūsų paklausia ar norite skaityti studentus iš failo, ar įvesti juos ranka. Pasirinkimą nurodykite raidėmis <b>"T"</b> arba <b>"N"</b>.</p>
