@@ -1,7 +1,7 @@
 <h3>Objektinis programavimas V1_1</h3>
 <p><b><i>V1_1 versijos ypatumas: programos perrašymas iš struct naudojimo į class; struct vs. class testavimas</i></b></p>
 <p>Testavimas atliktas pasinaudojus sparčiausia (2) strategija.</p>
-<h3>Testavimo rezultatai su vector (strategija 2):</h3>
+<h3>Struct:</h3>
 <table>
     <tr>
         <th>Failo pav.</th>
@@ -10,22 +10,25 @@
         <th>Suskirstymo trukmė</th>
     </tr>
     <tr>
-        <td>Studentai1000.txt</td>
-        <td>0.003 s</td>
-        <td>0 s</td>
-        <td>0 s</td>
-    </tr>
-    <tr>        
-        <td>Studentai10000.txt</td>
-        <td>0.032 s</td>
-        <td>0.002 s</td>
-        <td>0.001 s</td>
+        <td>Studentai1000000.txt</td>
+        <td>2.226 s</td>
+        <td>0.136 s</td>
+        <td>0.146 s</td>
     </tr>
     <tr>
-        <td>Studentai100000.txt</td>
-        <td>0.238 s</td>
-        <td>0.012 s</td>
-        <td>0.016 s</td>
+        <td>Studentai10000000.txt</td>
+        <td>21.107 s</td> 
+        <td>1.409 s</td>
+        <td>1.603 s</td>
+    </tr>
+</table>
+<h3>Class:</h3>
+<table>
+    <tr>
+        <th>Failo pav.</th>
+        <th>Nuskaitymas</th>
+        <th>Sort() trukmė</th>
+        <th>Suskirstymo trukmė</th>
     </tr>
     <tr>
         <td>Studentai1000000.txt</td>
