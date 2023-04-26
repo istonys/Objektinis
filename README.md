@@ -52,8 +52,6 @@
 <h2>Pagrindinės funkcijos </h2>
     <p><b>Skaityti()</b> - nuskaito studentų duomenis iš failo</p>
     <p><b>Ivestis()</b> - leidžia vartotojui įvesti studentų duomenis ranka.</p>
-    <p><b>Vidurkis()</b> - skaičiuoja studentų vidurkius.</p>
-    <p><b>Mediana()</b> - skaičiuoja studentų medianas.</p>
     <p><b>Spausdinti()</b> - spausdina studentų duomenis ir jų vidurkius bei medianas.</p>
     <p><b>lygintiVardus()</b> - pagalbinė funkcija, kuri lygina studentų vardus ir padeda juos surikiuoti tinkama tvarka.</p>
 <h2>Programos naudojimo pavyzdys:</h2>
