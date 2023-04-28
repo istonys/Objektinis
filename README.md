@@ -2,6 +2,7 @@
 <p><b><i>V1_1 versijos ypatumas: programos perrašymas iš struct naudojimo į class; struct vs. class testavimas</i></b></p>
 <p>Testavimas atliktas pasinaudojus sparčiausia (2) strategija.</p>
 <h3>Struct:</h3>
+<h3>Main.exe: 409KB</h3>
 <table>
     <tr>
         <th>Failo pav.</th>
@@ -23,6 +24,7 @@
     </tr>
 </table>
 <h3>Struct -O1:</h3>
+<h3>Main.exe: 234KB</h3>
 <table>
     <tr>
         <th>Failo pav.</th>
@@ -44,6 +46,7 @@
     </tr>
 </table>
 <h3>Struct -O2:</h3>
+<h3>Main.exe: 223KB</h3>
 <table>
     <tr>
         <th>Failo pav.</th>
@@ -65,6 +68,7 @@
     </tr>
 </table>
 <h3>Struct -O3:</h3>
+<h3>Main.exe: 230KB</h3>
 <table>
     <tr>
         <th>Failo pav.</th>
@@ -86,6 +90,7 @@
     </tr>
 </table>
 <h3>Class:</h3>
+<h3>Main.exe: 413KB</h3>
 <table>
     <tr>
         <th>Failo pav.</th>
@@ -107,6 +112,7 @@
     </tr>
 </table>
 <h3>Class -O1:</h3>
+<h3>Main.exe: 237KB</h3>
 <table>
     <tr>
         <th>Failo pav.</th>
@@ -128,6 +134,7 @@
     </tr>
 </table>
 <h3>Class -O2:</h3>
+<h3>Main.exe: 226KB</h3>
 <table>
     <tr>
         <th>Failo pav.</th>
@@ -149,6 +156,7 @@
     </tr>
 </table>
 <h3>Class -O3:</h3>
+<h3>Main.exe: 239KB</h3>
 <table>
     <tr>
         <th>Failo pav.</th>
