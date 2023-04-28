@@ -2,7 +2,7 @@
 #include "Source.h"
 
 bool lygintiVardus(Studentas& a, Studentas& b) {
-    return b.gauti_varda() > a.gauti_varda();
+    return b.vardas() > a.vardas();
 }
 bool arVargsiukas(Studentas& c) {
     return c.gauti_vidurki() >= 5;
@@ -29,8 +29,8 @@ void Skaityti(vector<Studentas>& grupe, vector<string>& pirmaEilute, bool& ar) {
             int a;
             istringstream iss(eilute);
             iss >> vardas >> pavarde;
-            tmp.nustatyti_varda(vardas);
-            tmp.nustatyti_pavarde(pavarde);
+            tmp.vardas(vardas);
+            tmp.pavarde(pavarde);
             tmp.istrinti_pazymius();
             while (iss >> a) {
                 tmp.prideti_pazymi(a);
@@ -70,8 +70,8 @@ void Ivestis(vector<Studentas>& grupe) {
         string vardas, pavarde;
         cout << "Iveskite studento varda bei pavarde: ";
         cin >> vardas >> pavarde;
-        tmp.nustatyti_varda(vardas);
-        tmp.nustatyti_pavarde(pavarde);
+        tmp.vardas(vardas);
+        tmp.pavarde(pavarde);
         testi = arRandom(testi);
 
         if (testi == "t") {
@@ -177,7 +177,7 @@ void Spausdinti(vector<Studentas>& grupe) {
     cout << setw(15) << "Vardas" << setw(15) << "Pavarde" << setw(35) << "Galutinis vid. / Galutinis med." << endl;
     cout << "--------------------------------------------------------------------------------" << endl;
     for (int i = 0; i < grupe.size(); i++) {
-        cout << setw(15) << grupe[i].gauti_varda() << setw(15) << grupe[i].gauti_pavarde() << setw(18) << fixed << setprecision(2) << grupe[i].gauti_vidurki() << setw(17) << grupe[i].gauti_mediana() << endl;
+        cout << setw(15) << grupe[i].vardas() << setw(15) << grupe[i].pavarde() << setw(18) << fixed << setprecision(2) << grupe[i].gauti_vidurki() << setw(17) << grupe[i].gauti_mediana() << endl;
     }
 }
 void Generuoti() {
@@ -373,14 +373,14 @@ void Rusiuoti(vector<Studentas>& grupe) {
             vargsiukai << setw(15) << "Vardas" << setw(15) << "Pavarde" << setw(35) << "Galutinis vid. / Galutinis med." << endl;
             vargsiukai << "--------------------------------------------------------------------------------" << endl;
             for (int i = 0; i < V_vargsiukai.size(); i++) {
-                vargsiukai << setw(15) << V_vargsiukai[i].gauti_varda() << setw(15) << V_vargsiukai[i].gauti_pavarde() << setw(18) << fixed << setprecision(2) << V_vargsiukai[i].gauti_vidurki() << setw(17) << V_vargsiukai[i].gauti_mediana() << endl;
+                vargsiukai << setw(15) << V_vargsiukai[i].vardas() << setw(15) << V_vargsiukai[i].pavarde() << setw(18) << fixed << setprecision(2) << V_vargsiukai[i].gauti_vidurki() << setw(17) << V_vargsiukai[i].gauti_mediana() << endl;
             }
             vargsiukai.close();
             ofstream galvociai("galvociai.txt");
             galvociai << setw(15) << "Vardas" << setw(15) << "Pavarde" << setw(35) << "Galutinis vid. / Galutinis med." << endl;
             galvociai << "--------------------------------------------------------------------------------" << endl;
             for (int i = 0; i < V_galvociai.size(); i++) {
-                galvociai << setw(15) << V_galvociai[i].gauti_varda() << setw(15) << V_galvociai[i].gauti_pavarde() << setw(18) << fixed << setprecision(2) << V_galvociai[i].gauti_vidurki() << setw(17) << V_galvociai[i].gauti_mediana() << endl;
+                galvociai << setw(15) << V_galvociai[i].vardas() << setw(15) << V_galvociai[i].pavarde() << setw(18) << fixed << setprecision(2) << V_galvociai[i].gauti_vidurki() << setw(17) << V_galvociai[i].gauti_mediana() << endl;
             }
             galvociai.close();
             auto stopRasyti = std::chrono::high_resolution_clock::now();
@@ -409,14 +409,14 @@ void Rusiuoti(vector<Studentas>& grupe) {
             vargsiukai << setw(15) << "Vardas" << setw(15) << "Pavarde" << setw(35) << "Galutinis vid. / Galutinis med." << endl;
             vargsiukai << "--------------------------------------------------------------------------------" << endl;
             for (int i = 1; i < Vargsiukai.size(); i++) {
-                vargsiukai << setw(15) << Vargsiukai[i].gauti_varda() << setw(15) << Vargsiukai[i].gauti_pavarde() << setw(18) << fixed << setprecision(2) << Vargsiukai[i].gauti_vidurki() << setw(17) << Vargsiukai[i].gauti_mediana() << endl;
+                vargsiukai << setw(15) << Vargsiukai[i].vardas() << setw(15) << Vargsiukai[i].pavarde() << setw(18) << fixed << setprecision(2) << Vargsiukai[i].gauti_vidurki() << setw(17) << Vargsiukai[i].gauti_mediana() << endl;
             }
             vargsiukai.close();
             ofstream galvociai("galvociai.txt");
             galvociai << setw(15) << "Vardas" << setw(15) << "Pavarde" << setw(35) << "Galutinis vid. / Galutinis med." << endl;
             galvociai << "--------------------------------------------------------------------------------" << endl;
             for (int i = 0; i < grupe.size(); i++) {
-                galvociai << setw(15) << grupe[i].gauti_varda() << setw(15) << grupe[i].gauti_pavarde() << setw(18) << fixed << setprecision(2) << grupe[i].gauti_vidurki() << setw(17) << grupe[i].gauti_mediana() << endl;
+                galvociai << setw(15) << grupe[i].vardas() << setw(15) << grupe[i].pavarde() << setw(18) << fixed << setprecision(2) << grupe[i].gauti_vidurki() << setw(17) << grupe[i].gauti_mediana() << endl;
             }
             galvociai.close();
             auto stopRasyti = std::chrono::high_resolution_clock::now();

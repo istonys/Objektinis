@@ -22,14 +22,14 @@ public:
 		Mediana = 0;
 	}
 	// getter'iai
-	string gauti_varda() { return Vardas; }
-	string gauti_pavarde() { return Pavarde; }
+	string vardas() { return Vardas; }
+	string pavarde() { return Pavarde; }
 	double gauti_vidurki() { return Vidurkis; }
 	double gauti_mediana() { return Mediana; }
 	int gauti_egzamino_bala() { return Egzamino_balas; }
 	//
-	void nustatyti_varda(string vardas) { Vardas = vardas; }
-	void nustatyti_pavarde(string pavarde) { Pavarde = pavarde; }
+	void vardas(string vardas) { Vardas = vardas; }
+	void pavarde(string pavarde) { Pavarde = pavarde; }
 	void prideti_pazymi(int pazymys) { Pazymiai.push_back(pazymys); }
 	void istrinti_pazymius() { Pazymiai.clear(); }
 	vector<int>& gauti_pazymius() {
