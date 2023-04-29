@@ -1,5 +1,5 @@
 <h3>Objektinis programavimas V1_5</h3>
-![image](https://user-images.githubusercontent.com/116721418/235317543-f0dee050-4187-4459-8771-adbf45012fc8.png)
+<img src="https://user-images.githubusercontent.com/116721418/235317543-f0dee050-4187-4459-8771-adbf45012fc8.png">
 <p><b><i>V1_5 versijos ypatumas: abstrakti "Zmogus" klasė ir derived Studentas.</i></b></p>
 <h2>Programos naudojimas</h2>
     <p>Programos pradžioje suteikta galimybė sugeneruoti studentų failus.</p>
