@@ -12,6 +12,7 @@ public:
 		Pavarde = "Pavardenis";
 		Vidurkis = 0;
 	}
+	
 	string vardas() const { return Vardas; }
 	void vardas(const string& vardas) { Vardas = vardas; }
 
