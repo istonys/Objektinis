@@ -3,28 +3,28 @@
 <p>Kodo pavyzdys:</p>
 <code>class Zmogus {
 protected:
-	string Vardas;
-	string Pavarde;
-	int Vidurkis;
+  string Vardas;
+  string Pavarde;
+  int Vidurkis;
 public:
-	Zmogus() {
-		Vardas = "Vardenis";
-		Pavarde = "Pavardenis";
-		Vidurkis = 0;
+  Zmogus() {
+	  Vardas = "Vardenis";
+	  Pavarde = "Pavardenis";
+	  Vidurkis = 0;
 	}
 	
-	string vardas() const { return Vardas; }
-	void vardas(const string& vardas) { Vardas = vardas; }
+  string vardas() const { return Vardas; }
+  void vardas(const string& vardas) { Vardas = vardas; }
 
-	string pavarde() const { return Pavarde; }
-	void pavarde(const string& pavarde) { Pavarde = pavarde; }
+  string pavarde() const { return Pavarde; }
+  void pavarde(const string& pavarde) { Pavarde = pavarde; }
 
-	int vidurkis() const { return Vidurkis; }
-	void vidurkis(int vidurkis) { Vidurkis = vidurkis; }
+  int vidurkis() const { return Vidurkis; }
+  void vidurkis(int vidurkis) { Vidurkis = vidurkis; }
 
-	virtual void trumpaiApieStudenta() = 0;
+  virtual void trumpaiApieStudenta() = 0;
 
-	virtual ~Zmogus() {};
+  virtual ~Zmogus() {};
 };
 class Studentas:public Zmogus { ... };
 </code>
