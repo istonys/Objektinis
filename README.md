@@ -1,33 +1,6 @@
 <h3>Objektinis programavimas V1_5</h3>
+![image](https://user-images.githubusercontent.com/116721418/235317543-f0dee050-4187-4459-8771-adbf45012fc8.png)
 <p><b><i>V1_5 versijos ypatumas: abstrakti "Zmogus" klasė ir derived Studentas.</i></b></p>
-<p>Kodo pavyzdys:</p>
-<code>class Zmogus {
-protected:
-  string Vardas;
-  string Pavarde;
-  int Vidurkis;
-public:
-  Zmogus() {
-	  Vardas = "Vardenis";
-	  Pavarde = "Pavardenis";
-	  Vidurkis = 0;
-	}
-	
-  string vardas() const { return Vardas; }
-  void vardas(const string& vardas) { Vardas = vardas; }
-
-  string pavarde() const { return Pavarde; }
-  void pavarde(const string& pavarde) { Pavarde = pavarde; }
-
-  int vidurkis() const { return Vidurkis; }
-  void vidurkis(int vidurkis) { Vidurkis = vidurkis; }
-
-  virtual void trumpaiApieStudenta() = 0;
-
-  virtual ~Zmogus() {};
-};
-class Studentas:public Zmogus { ... };
-</code>
 <h2>Programos naudojimas</h2>
     <p>Programos pradžioje suteikta galimybė sugeneruoti studentų failus.</p>
     <p>Toliau programa jūsų paklausia ar norite skaityti studentus iš failo, ar įvesti juos ranka. Pasirinkimą nurodykite raidėmis <b>"T"</b> arba <b>"N"</b>.</p>
