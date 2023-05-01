@@ -17,7 +17,7 @@
     <p>Pasirinkus <b>"T"</b> - duodami failų pasirinkimai, įrašius pavadinimą, apdorojamas failas.</p>
       <p><li>Nuskaičius failą duodama galimybė pasirinkti strategiją, kuria norėsite surūšiuoti studentus.</li></p>
     <p>Pasirinkus <b>"N"</b> - leidžiama jums pradėti įvestį ranka. Įvesčių kiekis nėra ribojamas, naudotis šia funkcija naudokitės programos nurodymais.</p>
-<h2>Pagrindinės funkcijos </h2>
+<h2>Pagrindinės funkcijos:</h2>
     <p><b>Skaityti()</b> - nuskaito studentų duomenis iš failo</p>
     <p><b>Ivestis()</b> - leidžia vartotojui įvesti studentų duomenis ranka.</p>
     <p><b>Spausdinti()</b> - spausdina studentų duomenis ir jų vidurkius bei medianas.</p>
@@ -25,5 +25,14 @@
     <p><b>Generuoti()</b> - funkcija, kuri sugeneruoja studentų failus.</p
     <p><b>Rusiuoti()</b> - funkcija, kuri rušiuoja studentus į atskirus konteinerius.</p>
     <p><b>SkaitymoCiklas()</b> - funkcija, kuri apima visą programos skaitymo ciklą.</p>
+<h2>Programos instaliavimo instrukcija:</h2>
+<img src="https://user-images.githubusercontent.com/116721418/235453532-9d732f23-abc3-412c-b84b-b44fd74df189.png">
+<img src="https://user-images.githubusercontent.com/116721418/235453549-9f8a7ad6-e803-4909-b1e0-2352c3336264.png">
+<img src="https://user-images.githubusercontent.com/116721418/235453568-af8ff2fb-2e2d-4257-8f3b-5329bec0a4e1.png">
+<img src="https://user-images.githubusercontent.com/116721418/235453598-0405bcbb-d38e-43d1-8cf5-0652f7ddfb46.png">
+<img src="https://user-images.githubusercontent.com/116721418/235453721-1985ae4a-f8fc-49e5-a458-802f1ce07349.png">
+<img src="https://user-images.githubusercontent.com/116721418/235453763-66d0ac51-708b-41f2-a0eb-fe6e788d86f7.png">
+<img src="https://user-images.githubusercontent.com/116721418/235453787-348f317d-cccb-4591-9645-00df2eaad16f.png">
+
 <h2>Programos naudojimo pavyzdys:</h2>
 <img src="https://user-images.githubusercontent.com/116721418/231956298-83a3cdd9-d920-4c71-a0e3-f2fad57bfc14.png" width="900" height="500">
