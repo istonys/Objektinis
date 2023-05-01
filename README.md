@@ -1,16 +1,16 @@
 <h3>Objektinis programavimas V2_0</h3>
 <p><b><i>V2_0 versijos ypatumas: Setup.exe ir projekto finišas.</i></b></p>
 <h3>Kitų versijų ypatumai (istorija)</h3>
-<p><b><i>V0_1 versijos ypatumas: programos pradžia, realizavimas dinaminių masyvų bei vektorių.</i><b></p>
-<p><b><i>V0_2 versijos ypatumas: skaitymas iš failo.</i><b></p>
-<p><b><i>V0_3 versijos ypatumas: V0_2 versijos reorganizavimas bei išimčių valdymas.</i><b></p>
-<p><b><i>V0_4 versijos ypatumas: failų rūšiavimas bei laiko matavimas.</i><b></p>
-<p><b><i>V0_5 versijos ypatumas: testavimas su list ir deque konteineriais.</i><b></p>
-<p><b><i>V1_0 versijos ypatumas: testavimas pritaikant skirtingas strategijas.</i><b></p>
-<p><b><i>V1_1 versijos ypatumas: programos perrašymas iš struct naudojimo į class; struct vs. class testavimas.</i><b></p>
-<p><b><i>V1_2 versijos ypatumas: Rule of Five ir papildomų operatorių realizacija.</i><b></p>
-<p><b><i>V1_5 versijos ypatumas: abstrakti "Zmogus" klasė ir derived Studentas.</i><b></p>
-<h3>Versijų detalesnio aprašymo galite ieškoti jų branchuose arba pateiktame doxygen faile.</h3>
+<li><p><b><i>V0_1 versijos ypatumas: programos pradžia, realizavimas dinaminių masyvų bei vektorių.</i><b></p></li>
+<li><p><b><i>V0_2 versijos ypatumas: skaitymas iš failo.</i><b></p></li>
+<li><p><b><i>V0_3 versijos ypatumas: V0_2 versijos reorganizavimas bei išimčių valdymas.</i><b></p></li>
+<li><p><b><i>V0_4 versijos ypatumas: failų rūšiavimas bei laiko matavimas.</i><b></p></li>
+<li><p><b><i>V0_5 versijos ypatumas: testavimas su list ir deque konteineriais.</i><b></p></li>
+<li><p><b><i>V1_0 versijos ypatumas: testavimas pritaikant skirtingas strategijas.</i><b></p></li>
+<li><p><b><i>V1_1 versijos ypatumas: programos perrašymas iš struct naudojimo į class; struct vs. class testavimas.</i><b></p></li>
+<li><p><b><i>V1_2 versijos ypatumas: Rule of Five ir papildomų operatorių realizacija.</i><b></p></li>
+<li><p><b><i>V1_5 versijos ypatumas: abstrakti "Zmogus" klasė ir derived Studentas.</i><b></p></li>
+<h3>Versijų detalesnio aprašymo galite ieškoti jų branchuose arba pateiktame doxygen faile.</h3></li>
 <h2>Programos naudojimas</h2>
     <p>Programos pradžioje suteikta galimybė sugeneruoti studentų failus.</p>
     <p>Toliau programa jūsų paklausia ar norite skaityti studentus iš failo, ar įvesti juos ranka. Pasirinkimą nurodykite raidėmis <b>"T"</b> arba <b>"N"</b>.</p>
