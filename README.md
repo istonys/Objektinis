@@ -1,5 +1,6 @@
 <h3>Objektinis programavimas V2_0</h3>
-<p><b><i>V2_0 versijos ypatumas: Setup.exe ir projekto finišas.</i></b></p>
+<p><b><i>V2_0 versijos ypatumas: Setup.exe ir doxygen dokumentacija, projekto finišas.</i></b></p>
+<h3>Kad pamatyti dokumentaciją, nueikite į doxygen folderį ir parsisiųskite doxygen.7z. Extract all ir susiraskite index.html, kad pamatyti dokumentaciją.</h3>
 <h3>Kitų versijų ypatumai (istorija)</h3>
 <li><b><i>V0_1 versijos ypatumas: programos pradžia, realizavimas dinaminių masyvų bei vektorių.</i><b></li>
 <li><b><i>V0_2 versijos ypatumas: skaitymas iš failo.</i><b></li>
