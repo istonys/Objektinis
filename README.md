@@ -76,8 +76,8 @@
 	}
 <h2>Rezultatai:</h2>
 <img src="https://user-images.githubusercontent.com/116721418/236911697-93bba52f-7a14-4fef-8f94-d0321300eebc.png">
-
-<p>Ši lentelė parodo spartos testavimo rezultatus (DEBUG mode).</p>
+<p></p>
+<h3>Ši lentelė parodo spartos testavimo rezultatus (DEBUG mode).</h3>
 <table>
   <tr>
     <th>Size dydis</th>
