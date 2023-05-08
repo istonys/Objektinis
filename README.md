@@ -134,3 +134,18 @@
     <td>0.374 s</td>
   </tr>
 </table>
+<h3>Ši lentelė parodo kiek perskirstymų įvykdyta su Studentai10000000.txt</h3>
+<table>
+<tr>
+<th></th>
+<th>Perskirstymų kiekis</th>
+</tr>
+<tr>
+<td>std::vector</td>
+<td>41</td>
+</tr>
+<tr>
+<td>manoVector</td>
+<td>41</td>
+</tr>
+</table>
