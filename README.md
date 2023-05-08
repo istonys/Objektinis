@@ -8,7 +8,7 @@
 <li>Back()</li>
 <li>Resize()</li>
 <li>Clear()</li>
-\n
+<p></p>
 <p>Naudotas kodas:</p>
 <code>	std::vector<int> v1;
 	manoVector<int> v2;
