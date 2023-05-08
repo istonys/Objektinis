@@ -11,6 +11,8 @@
 <p></p>
 <p>Naudotas kodas:</p>
 <code>
+
+
 int main() {
 	std::vector<int> v1;
 	manoVector<int> v2;
