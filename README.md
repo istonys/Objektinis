@@ -10,7 +10,7 @@
 <li>Clear()</li>
 <p></p>
 <p>Naudotas kodas:</p>
-<code>	std::vector<int> v1;
+<code>std::vector<int> v1;
 	manoVector<int> v2;
 
 	v1.push_back(1);
