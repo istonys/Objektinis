@@ -106,7 +106,7 @@
   </tr>
 </table>
 
-<p>Ši lentelė parodo spartos testavimo rezultatus (RELEASE mode).</p>
+<h3>Ši lentelė parodo spartos testavimo rezultatus (RELEASE mode).</h3>
 <table>
   <tr>
     <th>Size dydis</th>
