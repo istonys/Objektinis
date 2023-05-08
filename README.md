@@ -13,7 +13,7 @@
 <code>
 
 
-int main() {
+	int main() {
 	std::vector<int> v1;
 	manoVector<int> v2;
 
