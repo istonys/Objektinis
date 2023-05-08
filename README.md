@@ -11,7 +11,7 @@
 <p></p>
 <p>Naudotas kodas:</p>
 <code>
-
+int main() {
 	std::vector<int> v1;
 	manoVector<int> v2;
 
@@ -70,6 +70,8 @@
 	v2.clear();
 	std::cout << "manoVector size ir capacity po clear(): " << v2.getSize() << " " << v2.getCapacity() << std::endl;</code>
   
+  	return 0;
+	}
 <h2>Rezultatai:</h2>
 <img src="https://user-images.githubusercontent.com/116721418/236911697-93bba52f-7a14-4fef-8f94-d0321300eebc.png">
 
