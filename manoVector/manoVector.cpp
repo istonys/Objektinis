@@ -105,6 +105,16 @@ public:
 		size = newSize;
 	}
 
+	void shrink_to_fit() {
+		if (capacity > size) {
+			T* newElements = new T[size];
+			std::copy(elements, elements + size, newElements);
+			delete[] elements;
+			elements = newElements;
+			capacity = size;
+		}
+	}
+
 	void clear() {
 		size = 0;
 		capacity = 0;
@@ -127,6 +137,12 @@ public:
 		}
 	}
 
+	void swap(manoVector<T>& other) noexcept {
+		std::swap(elements, other.elements);
+		std::swap(size, other.size);
+		std::swap(capacity, other.capacity);
+	}
+
 	void print() {
 		std::cout << "Size: " << size << std::endl;
 		std::cout << "Capacity: " << capacity << std::endl;
@@ -142,6 +158,13 @@ public:
 	T& operator[](int index) {
 		return elements[index];
 	}
+	
+	T& at(int index) {
+		if (index < 0 || index >= size) {
+			throw std::out_of_range("Index out of range.");
+		}
+		return elements[index];
+	}
 
 	T& front() {
 		return elements[0];
@@ -151,12 +174,40 @@ public:
 		return elements[size - 1];
 	}
 
+	T* data() const{
+		return elements;
+	}
+
 	T* begin() {
 		return elements;
 	}
 
+	T* rbegin() {
+		return elements + size - 1;
+	}
+
 	T* end() {
 		return elements + size;
+	}
+
+	T* rend() {
+		return elements - 1;
+	}
+
+	T* begin() const {
+		return elements;
+	}
+
+	T* rbegin() const {
+		return elements + size - 1;
+	}
+
+	T* end() const {
+		return elements + size;
+	}
+
+	T* rend() const {
+		return elements - 1;
 	}
 
 	int getSize() const {
@@ -166,6 +217,42 @@ public:
 	int getCapacity() const {
 		return capacity;
 	}
+
+	auto max_size() const noexcept {
+		return std::numeric_limits<decltype(getSize())>::max() / sizeof(T);
+	}
+
+	// papildomi operatoriai
+
+	bool operator==(const manoVector<T>& other) const {
+		if (getSize() != other.getSize()) {
+			return false;
+		}
+		for (auto i = 0; i < getSize(); i++) {
+			if (data()[i] != other.data()[i]) {
+				return false;
+			}
+		}
+		return true;
+	}
+	bool operator!=(const manoVector<T>& other) const {
+		return !(*this == other);
+	}
+
+	bool operator<(const manoVector<T>& other) const {
+		return std::lexicographical_compare(begin(), end(), other.begin(), other.end());
+	}
+	bool operator<=(const manoVector<T>& other) const {
+		return std::lexicographical_compare(begin(), end(), other.begin(), other.end()) || (*this == other);
+	}
+
+	bool operator>(const manoVector<T>& other) const {
+		return std::lexicographical_compare(other.begin(), other.end(), begin(), end());
+	}
+	bool operator>=(const manoVector<T>& other) const {
+		return !(*this < other) || (*this == other);
+	}
+
 };
 
 
@@ -228,6 +315,43 @@ int main() {
 
 	v2.clear();
 	std::cout << "manoVector size ir capacity po clear(): " << v2.getSize() << " " << v2.getCapacity() << std::endl;
+
+	manoVector<int> alice;
+	alice.push_back(1);
+	alice.push_back(2);
+	alice.push_back(3);
+
+	manoVector<int> bob;
+	bob.push_back(7);
+	bob.push_back(8);
+	bob.push_back(9);
+	bob.push_back(10);
+
+	manoVector<int> eve;
+	eve.push_back(1);
+	eve.push_back(2);
+	eve.push_back(3);
+
+	std::cout << std::boolalpha << std::endl;
+	std::cout << "Operatoriu testavimas:" << std::endl << std::endl;
+	// Compare non equal containers
+	std::cout << "alice == bob returns " << (alice == bob) << '\n';
+	std::cout << "alice != bob returns " << (alice != bob) << '\n';
+	std::cout << "alice <  bob returns " << (alice < bob) << '\n';
+	std::cout << "alice <= bob returns " << (alice <= bob) << '\n';
+	std::cout << "alice >  bob returns " << (alice > bob) << '\n';
+	std::cout << "alice >= bob returns " << (alice >= bob) << '\n';
+
+	std::cout << '\n';
+
+	// Compare equal containers
+	std::cout << "alice == eve returns " << (alice == eve) << '\n';
+	std::cout << "alice != eve returns " << (alice != eve) << '\n';
+	std::cout << "alice <  eve returns " << (alice < eve) << '\n';
+	std::cout << "alice <= eve returns " << (alice <= eve) << '\n';
+	std::cout << "alice >  eve returns " << (alice > eve) << '\n';
+	std::cout << "alice >= eve returns " << (alice >= eve) << '\n';
+
 	//auto start = std::chrono::high_resolution_clock::now();
 	//unsigned int sz = 100000;  // 100000, 1000000, 10000000, 100000000
 	//std::vector<int> v1;
