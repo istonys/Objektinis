@@ -146,6 +146,6 @@
 </tr>
 <tr>
 <td>manoVector</td>
-<td>41</td>
+<td>21</td>
 </tr>
 </table>
