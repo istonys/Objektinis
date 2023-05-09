@@ -8,7 +8,7 @@
 <li>Back()</li>
 <li>Resize()</li>
 <li>Clear()</li>
-<li>Visu operatoriu testavimas</li>
+<li>Visų operatorių testavimas</li>
 <p></p>
 <p>Naudotas kodas:</p>
 <code>
