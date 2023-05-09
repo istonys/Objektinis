@@ -149,3 +149,24 @@
 <td>21</td>
 </tr>
 </table>
+<h3>Ši lentelė parodo kiek trunka programos vykdymas su manoVector ir std::vector naudojant Studentai10000000.txt</h3>
+<table>
+	<tr>
+		<th></th>
+		<th>Nuskaitymas iš failo</th>
+		<th>Sort()</th>
+		<th>Suskirstymas</th>
+	</tr>
+	<tr>
+		<td>manoVector</th>
+		<th>24.845 s</th>
+		<th>6.371 s</th>
+		<th>2.927 s</th>
+	</tr>
+	<tr>
+		<td>std::vector</th>
+		<th>21.107 s</th>
+		<th>1.409 s</th>
+		<th>1.603 s</th>
+	</tr>
+</table
