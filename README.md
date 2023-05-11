@@ -1,5 +1,5 @@
 <h3>Objektinis programavimas</h3>
-<h4>Ši papildoma užduotis atlikta vietoje egzamino praktinės užduoties</h4>
+<h4><i>Ši papildoma užduotis atlikta vietoje egzamino praktinės užduoties</i></h4>
 
 <h4>Šios programos ypatumas: skaityti iš failo, išrinkti žodžius bei esamus URLs</h4>
 <p>Vykdant programą naudotasi tekstiniu failu pavadinimu "tekstas.txt", kurį galite surasti esančiame folderyje.</p>
