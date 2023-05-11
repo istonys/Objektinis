@@ -1,7 +1,7 @@
-<h3>Objektinis programavimas</h3>
+<h1>Objektinis programavimas</h1>
 <h4><i>Ši papildoma užduotis atlikta vietoje egzamino praktinės užduoties</i></h4>
 
-<h4>Šios programos ypatumas: skaityti iš failo, išrinkti žodžius bei esamus URLs</h4>
+<h2>Šios programos ypatumas: skaityti iš failo, išrinkti žodžius bei esamus URLs</h2>
 <p>Vykdant programą naudotasi tekstiniu failu pavadinimu "tekstas.txt", kurį galite surasti esančiame folderyje.</p>
 
 <h4>Ši lentelė parodys top5 dažniausiai pasikartojančius žodžius bei esančius URLs tekstiniame faile.</h4>
