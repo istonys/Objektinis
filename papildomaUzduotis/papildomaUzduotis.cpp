@@ -39,12 +39,12 @@ void skaitytiIrRasyti(map<string, int>& zodziai) {
 	std::regex url_regex(R"((https?://|www\.)\S+(\.lt|\.com)\b)");
 	std::smatch matches;
 	outfile << "URLs found in the text:" << endl;
-	std::set<string> unique_urls; // set to keep track of unique URLs found
+	std::set<string> unique_urls;
 	while (regex_search(text, matches, url_regex)) {
 		string url = matches[0].str();
-		if (unique_urls.count(url) == 0) { // check if URL is unique
-			unique_urls.insert(url); // add URL to set of unique URLs
-			outfile << url << endl; // output unique URL
+		if (unique_urls.count(url) == 0) {
+			unique_urls.insert(url);
+			outfile << url << endl;
 		}
 
 		text = matches.prefix().str() + matches.suffix().str();
