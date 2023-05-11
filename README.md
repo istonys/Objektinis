@@ -4,7 +4,7 @@
 <h2>Šios programos ypatumas: skaityti iš failo, išrinkti žodžius bei esamus URLs</h2>
 <p>Vykdant programą naudotasi tekstiniu failu pavadinimu "tekstas.txt", kurį galite surasti esančiame folderyje.</p>
 
-<h4>Ši lentelė parodys top5 dažniausiai pasikartojančius žodžius bei esančius URLs tekstiniame faile.</h4>
+<h3>Ši lentelė parodys top5 dažniausiai pasikartojančius žodžius bei esančius URLs tekstiniame faile.</h3>
 <table>
   <tr>
     <th>Žodis / URL</th>
