@@ -4,6 +4,7 @@
 <h2>Šios programos ypatumas: skaityti iš failo, išrinkti žodžius bei esamus URLs</h2>
 <p>Vykdant programą naudotasi tekstiniu failu pavadinimu "tekstas.txt", kurį galite surasti esančiame folderyje.</p>
 <p>Failo tekstas išrinktas iš: https://lt.wikipedia.org/wiki/Europos_Sąjunga</p>
+<p>Faile ranka atsitiktinėse vietose įrašyti papildomi URL, kad būtų galima pratestuoti programą.</p>
 <h3>Ši lentelė parodys top5 dažniausiai pasikartojančius žodžius bei esančius URLs tekstiniame faile.</h3>
 <table>
   <tr>
@@ -43,6 +44,7 @@
     <td>-</td>
   </tr>
 </table>
+<h2>Programos naudojimas: esant norui, pakeiskite "tekstas.txt" į bet kokį tekstą. Programą užtenka tiesiog paleisti.</h2>
 <h2>IŠSAMIAU</h2>
 <p>Šis kodas yra skirtas rasti unikalias nuorodas tekste ir suskaičiuoti kiek kartų pasikartoja kiekvienas žodis, išskyrus skaičius. Rezultatas išsaugomas naujame faile "output.txt".</p>
 <p>Kodas yra rašytas C++ kalba ir naudoja keletą bibliotekų: iostream, fstream, regex, map, stringstream, string, algorithm, set.</p>
