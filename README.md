@@ -3,7 +3,7 @@
 
 <h2>Šios programos ypatumas: skaityti iš failo, išrinkti žodžius bei esamus URLs</h2>
 <p>Vykdant programą naudotasi tekstiniu failu pavadinimu "tekstas.txt", kurį galite surasti esančiame folderyje.</p>
-<p>Failo tekstas išrinktas iš: https://lt.wikipedia.org/wiki/Europos_S%C4%85junga</p>
+<p>Failo tekstas išrinktas iš: https://lt.wikipedia.org/wiki/Europos_Sąjunga</p>
 <h3>Ši lentelė parodys top5 dažniausiai pasikartojančius žodžius bei esančius URLs tekstiniame faile.</h3>
 <table>
   <tr>
